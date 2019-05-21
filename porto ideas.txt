@@ -1,0 +1,3 @@
+system32 fil på skrivebordet, redirect til bsod hvis man sletter den (lave en papirkurv) eller før til en 404 - side.
+
+lave en et kompetance ikon, vist som cmd, og åben den som cmd der skriver tekst ind som kode.
