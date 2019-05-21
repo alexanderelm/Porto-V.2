@@ -1,6 +1,6 @@
 @font-face {
   font-family: moderat;
-  src: url(Moderat-Regular.ttf) format("truetype");
+  src: url(Fonts/Moderat-Regular.ttf) format("truetype");
 }
 
 *{
@@ -11,7 +11,7 @@ body{
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  background-image: url(ubuntu.jpg);
+  background-image: url(Assets/ubuntu.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,11 +37,15 @@ body{
   }
 
 .icons{
-  top: 90px;
+  top: 50px;
   bottom: 0;
   width: 200px;
   position: absolute;
   left: 100px;
+}
+
+.icons{
+  color: white;
 }
 
 #popup{
@@ -62,13 +66,16 @@ body{
 }
 
 .close{
-  height: 15px;
-  width: 15px;
+  height: 18px;
+  width: 18px;
   border-radius: 100%;
   background-color: #F85F56;
   position: absolute;
   right: 7px;
-  top: 7px;
+  top: 5px;
+  border: solid;
+  border-width: thin;
+  border-color: #9b3933;
 }
 
 #taskbar{
@@ -87,11 +94,11 @@ body{
 }
 
 .kompetencer {
+  margin-top: 50px;
   width: 100px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  line-height: 48px;
 }
 
 .timedate{
