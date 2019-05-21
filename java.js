@@ -5,7 +5,7 @@ function bringForward (id){
   $("#"+id  ).css('z-index', zIndex);
 }
 
-  $( "#window, #window2").resizable();
+  $( "#window2").resizable();
 
   $( "#window, #window2, #popup, .kompetencer").draggable();
 
@@ -17,11 +17,22 @@ function CloseOpen(n){
   $("#"+n).toggle();
 }
 
+var TypedVal = 0;
+
 function OpenWindow(n){
   zIndex++;
   $("#"+n).css('z-index', zIndex);
   $("#"+n).css("display", "block");
+  if(n=="window" && TypedVal == 0){
+    TypedVal = 1;
+    var typed = new Typed('#cmd', {
+      strings: ('cmd'),
+      startDelay: 300,
+      typeSpeed: 30,
+    });
+  }
 }
+
 
 function FullScreen() {
   if ((document.fullScreenElement && document.fullScreenElement !== null) ||
