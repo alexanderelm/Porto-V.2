@@ -23,14 +23,6 @@ function OpenWindow(n){
   zIndex++;
   $("#"+n).css('z-index', zIndex);
   $("#"+n).css("display", "block");
-  if(n=="window" && TypedVal == 0){
-    TypedVal = 1;
-    var typed = new Typed('#cmd', {
-      strings: ('cmd'),
-      startDelay: 300,
-      typeSpeed: 30,
-    });
-  }
 }
 
 
@@ -53,4 +45,5 @@ function FullScreen() {
       document.webkitCancelFullScreen();
     }
   }
+  $('#popup').toggle();
 }
