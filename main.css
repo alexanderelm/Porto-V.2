@@ -237,9 +237,24 @@ body{
  }
 
  .socials{
-   border:solid;
    position: relative;
    float: right;
-   width: 300px;
+   width: 350px;
    height: 100%;
+   justify-content: center;
+   align-items: center;
+   line-height: 30px;
+   color: white;
+ }
+
+ .socials i{
+   float: right;
+   position: relative;
+   line-height: 32px;
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+
+ .socials span{
+   line-height: 32px;
  }
