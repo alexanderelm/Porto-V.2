@@ -5,9 +5,9 @@ function bringForward (id){
   $("#"+id  ).css('z-index', zIndex);
 }
 
-  $( "#window2").resizable();
+  $( "#window2, #window3, #window4").resizable();
 
-  $( "#window, #window2, #popup, .kompetencer").draggable();
+  $( "#window, #window2, #window3, #window4, #popup, .kompetencer").draggable();
 
   $(document).ready(function(){
     $("#popup").css("display", "block");

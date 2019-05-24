@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="icon" href="Assets/fabicon.png" type="image/png">
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -85,8 +86,37 @@
 
       <div id="window2" onclick="bringForward('window2')" class="ui-widget-content">
         <script type="text/javascript" src="java.js"></script>
-        <h6 class="ui-widget-header">About me
+        <h6 class="ui-widget-header">Say Hello
           <div class="close" onclick="CloseOpen('window2')" style="opacity: 1;"></div>
+        </h6>
+        <div class="contact">
+      <div class="contact-wrap">
+        <div class="contact-top">
+          <input type="text" placeholder="Name" class="top" style="margin: 0px 8px 8px 0px;"></input>
+          <input type="text" placeholder="Company Name" class="top" style="margin: 0px 0px 8px 8px;"></input>
+        </div>
+        <div class="contact-mid">
+          <input type="text" placeholder="Email" class="mid" style="margin: 8px 8px 8px 0px;">
+          <input type="text" placeholder="Phone Number" class="mid" style="margin: 8px 0px 8px 5px;">
+        </div>
+        <div class="contact-bottom">
+          <textarea class="bottom" placeholder="Message" style="margin: 8px 0px 0px 0px;"></textarea>
+        </div>
+      </div>
+    </div>
+
+      <div id="window3" onclick="bringForward('window3')" class="ui-widget-content">
+        <script type="text/javascript" src="java.js"></script>
+        <h6 class="ui-widget-header">About me
+          <div class="close" onclick="CloseOpen('window3')" style="opacity: 1;"></div>
+        </h6>
+      </div>
+
+
+      <div id="window4" onclick="bringForward('window4')" class="ui-widget-content">
+        <script type="text/javascript" src="java.js"></script>
+        <h6 class="ui-widget-header">About me
+          <div class="close" onclick="CloseOpen('window4')" style="opacity: 1;"></div>
         </h6>
       </div>
 
@@ -104,12 +134,12 @@
     <span>Say Hello</span>
   </div>
 
-  <div onclick="OpenWindow('window2')" class="kompetencer">
+  <div onclick="OpenWindow('window3')" class="kompetencer">
     <img src="Assets/Student.png">
     <span>Settings</span>
   </div>
 
-  <div onclick="OpenWindow('window2')" class="kompetencer">
+  <div onclick="OpenWindow('window4')" class="kompetencer">
     <img src="Assets/wrench.png">
     <span>Settings</span>
   </div>
@@ -124,9 +154,8 @@
       <div id="taskbar" class="container-fluid">
         <span class="title ml-2">Alexander Elm Andersen</span>
         <span class="title ml-2" style="color: #1C868E; ">PortofoliOS Ver 1.4</span>
-        <div class="socials">
+        <div class="socials mr-2">
           <span>Alex1999@live.dk</span>
-          <i class="fas fa-battery-three-quarters ml-5"></i>
           <i class="fa fa-linkedin-in"></i>
           <i class="fa fa-instagram"></i>
           <i class="far fa-envelope"></i>
