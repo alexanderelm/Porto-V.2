@@ -53,8 +53,10 @@ body{
 }
 
 #window2{
-  width: 650px;
-  height: 400px;
+  width: 550px;
+  height: 300px;
+  min-width: 550px;
+  min-height: 300px;
 }
 
 .icons{
@@ -267,7 +269,7 @@ body{
 .contact{
   position: relative;
   display: flex;
-  height: 94.7%;
+  height: 89%;
   align-items: center;
   justify-content: center;
 }
@@ -283,11 +285,11 @@ body{
   background-color: #F2F1F0;
   padding-left: 10px;
   position: relative;
-  height: 50px;
+  height: 30px;
   width: 250px;
   align-items: center;
   border: none;
-  border-bottom: solid medium #4BA3A3;
+  border-bottom: solid medium #4B436D;
   border-radius: 3px;
 }
 
@@ -302,11 +304,11 @@ body{
   background-color: #F2F1F0;
   padding-left: 10px;
   position: relative;
-  height: 50px;
+  height: 30px;
   width: 250px;
   align-items: center;
   border: none;
-  border-bottom: solid medium #4BA3A3;
+  border-bottom: solid medium #4B436D;
   border-radius: 3px;
 }
 
@@ -318,13 +320,15 @@ body{
   position: relative;
   align-items: center;
   border: none;
-  border-bottom: solid medium #4BA3A3;
+  border-bottom: solid medium #4B436D;
   width: 100%;
   padding-left: 5px;
   border-radius: 3px;
+  height: 55px;
+  min-height: 55px;
+  max-height: 130px;
 }
 
 .bottom:active{
   outline: none;
-  border: none;
 }
