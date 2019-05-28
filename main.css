@@ -53,10 +53,10 @@ body{
 }
 
 #window2{
-  width: 550px;
-  height: 300px;
-  min-width: 550px;
-  min-height: 300px;
+  width: 600px;
+  height: 355px;
+  min-width: 600px;
+  min-height: 355px;
 }
 
 .icons{
@@ -285,12 +285,16 @@ body{
   background-color: #F2F1F0;
   padding-left: 10px;
   position: relative;
-  height: 30px;
+  height: 35px;
   width: 250px;
   align-items: center;
   border: none;
   border-bottom: solid medium #4B436D;
   border-radius: 3px;
+}
+
+.top:focus{
+  outline:0 !important;
 }
 
 .contact-mid{
@@ -304,12 +308,16 @@ body{
   background-color: #F2F1F0;
   padding-left: 10px;
   position: relative;
-  height: 30px;
+  height: 35px;
   width: 250px;
   align-items: center;
   border: none;
   border-bottom: solid medium #4B436D;
   border-radius: 3px;
+}
+
+.mid:focus{
+  outline:0 !important;
 }
 
 .contact-bottom{
@@ -329,6 +337,27 @@ body{
   max-height: 130px;
 }
 
-.bottom:active{
-  outline: none;
+.bottom:focus{
+  outline:0 !important;
+}
+
+.conf button{
+  height: 45px;
+  width: 140px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4B436D;
+  color: white;
+}
+
+.conf button:focus{
+  outline:0 !important;
+}
+
+
+.conf{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
