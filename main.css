@@ -368,10 +368,7 @@ body{
 
 #window3{
   min-height: 600px;
-}
-
-#window3 .projectswrap{
-  overflow-y: scroll;
+  min-width: 800px;
 }
 
 .projectswrap{
